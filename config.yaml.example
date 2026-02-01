@@ -1,0 +1,16 @@
+search:
+  keywords:
+    - "embedded engineer"
+    - "iot engineer"
+    - "ai engineer"
+  location: "United Kingdom"
+  results_wanted: 50
+
+ranking:
+  top_n: 10
+  prefilter_k: 30
+  min_score: 70
+
+notify:
+  email: true
+  telegram: false
