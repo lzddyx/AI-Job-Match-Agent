@@ -14,3 +14,19 @@ ranking:
 notify:
   email: true
   telegram: false
+sources:
+  rss:
+    enabled: true
+    feeds:
+      - name: "jobs.ac.uk - Engineering & Technology"
+        url: "https://www.jobs.ac.uk/feeds/subject-areas/engineering-and-technology"
+
+ranking:
+  top_n: 10
+  prefilter_k: 30
+  min_score: 70
+
+notify:
+  email: true
+  telegram: false
+
